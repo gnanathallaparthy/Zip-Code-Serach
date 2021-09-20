@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEE532126F8128400A5FF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE532026F8128400A5FF45 /* AppDelegate.swift */; };
+		FBEE532326F8128400A5FF45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE532226F8128400A5FF45 /* SceneDelegate.swift */; };
+		FBEE532526F8128400A5FF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE532426F8128400A5FF45 /* ViewController.swift */; };
+		FBEE532826F8128400A5FF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEE532626F8128400A5FF45 /* Main.storyboard */; };
+		FBEE532A26F8128700A5FF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEE532926F8128700A5FF45 /* Assets.xcassets */; };
+		FBEE532D26F8128700A5FF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEE532B26F8128700A5FF45 /* LaunchScreen.storyboard */; };
+		FBEE533626F812FF00A5FF45 /* ZipCodeSearcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE533526F812FF00A5FF45 /* ZipCodeSearcherViewModel.swift */; };
+		FBEE533926F8133300A5FF45 /* ZipCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE533826F8133300A5FF45 /* ZipCodeModel.swift */; };
+		FBEE533C26F8136400A5FF45 /* URLResppnse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE533B26F8136400A5FF45 /* URLResppnse.swift */; };
+		FBEE533F26F813B000A5FF45 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE533E26F813B000A5FF45 /* Constants.swift */; };
+		FBEE534126F813BC00A5FF45 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE534026F813BC00A5FF45 /* Errors.swift */; };
+		FBEE534426F8143400A5FF45 /* ZipCodeSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE534326F8143400A5FF45 /* ZipCodeSearchAPI.swift */; };
+		FBEE534C26F8152A00A5FF45 /* ZipCodesNearByTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE534B26F8152A00A5FF45 /* ZipCodesNearByTests.swift */; };
+		FBEE535926F8DC1C00A5FF45 /* ZipCodeSearcherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE535826F8DC1C00A5FF45 /* ZipCodeSearcherViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBEE534E26F8152A00A5FF45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEE531526F8128400A5FF45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEE531C26F8128400A5FF45;
+			remoteInfo = ZipCodesNearBy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBEE531D26F8128400A5FF45 /* ZipCodesNearBy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipCodesNearBy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEE532026F8128400A5FF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBEE532226F8128400A5FF45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBEE532426F8128400A5FF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBEE532726F8128400A5FF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEE532926F8128700A5FF45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEE532C26F8128700A5FF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEE532E26F8128700A5FF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEE533526F812FF00A5FF45 /* ZipCodeSearcherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeSearcherViewModel.swift; sourceTree = "<group>"; };
+		FBEE533826F8133300A5FF45 /* ZipCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeModel.swift; sourceTree = "<group>"; };
+		FBEE533B26F8136400A5FF45 /* URLResppnse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResppnse.swift; sourceTree = "<group>"; };
+		FBEE533E26F813B000A5FF45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FBEE534026F813BC00A5FF45 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		FBEE534326F8143400A5FF45 /* ZipCodeSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeSearchAPI.swift; sourceTree = "<group>"; };
+		FBEE534926F8152A00A5FF45 /* ZipCodesNearByTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipCodesNearByTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEE534B26F8152A00A5FF45 /* ZipCodesNearByTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodesNearByTests.swift; sourceTree = "<group>"; };
+		FBEE534D26F8152A00A5FF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEE535826F8DC1C00A5FF45 /* ZipCodeSearcherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeSearcherViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEE531A26F8128400A5FF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE534626F8152A00A5FF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBEE531426F8128400A5FF45 = {
+			isa = PBXGroup;
+			children = (
+				FBEE531F26F8128400A5FF45 /* ZipCodesNearBy */,
+				FBEE534A26F8152A00A5FF45 /* ZipCodesNearByTests */,
+				FBEE531E26F8128400A5FF45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEE531E26F8128400A5FF45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE531D26F8128400A5FF45 /* ZipCodesNearBy.app */,
+				FBEE534926F8152A00A5FF45 /* ZipCodesNearByTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEE531F26F8128400A5FF45 /* ZipCodesNearBy */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE535426F8178200A5FF45 /* Commons */,
+				FBEE535326F8170500A5FF45 /* ViewControllers */,
+				FBEE533426F812B500A5FF45 /* ViewModels */,
+				FBEE533726F8131C00A5FF45 /* Models */,
+				FBEE534226F8140800A5FF45 /* API */,
+				FBEE533D26F813A100A5FF45 /* Utils */,
+				FBEE533A26F8134D00A5FF45 /* Extensions */,
+				FBEE532E26F8128700A5FF45 /* Info.plist */,
+			);
+			path = ZipCodesNearBy;
+			sourceTree = "<group>";
+		};
+		FBEE533426F812B500A5FF45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE533526F812FF00A5FF45 /* ZipCodeSearcherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FBEE533726F8131C00A5FF45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE533826F8133300A5FF45 /* ZipCodeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBEE533A26F8134D00A5FF45 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE533B26F8136400A5FF45 /* URLResppnse.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBEE533D26F813A100A5FF45 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE533E26F813B000A5FF45 /* Constants.swift */,
+				FBEE534026F813BC00A5FF45 /* Errors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBEE534226F8140800A5FF45 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE534326F8143400A5FF45 /* ZipCodeSearchAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FBEE534A26F8152A00A5FF45 /* ZipCodesNearByTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE534B26F8152A00A5FF45 /* ZipCodesNearByTests.swift */,
+				FBEE534D26F8152A00A5FF45 /* Info.plist */,
+				FBEE535826F8DC1C00A5FF45 /* ZipCodeSearcherViewModelTests.swift */,
+			);
+			path = ZipCodesNearByTests;
+			sourceTree = "<group>";
+		};
+		FBEE535326F8170500A5FF45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE532426F8128400A5FF45 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FBEE535426F8178200A5FF45 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE532B26F8128700A5FF45 /* LaunchScreen.storyboard */,
+				FBEE532026F8128400A5FF45 /* AppDelegate.swift */,
+				FBEE532226F8128400A5FF45 /* SceneDelegate.swift */,
+				FBEE532626F8128400A5FF45 /* Main.storyboard */,
+				FBEE532926F8128700A5FF45 /* Assets.xcassets */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEE531C26F8128400A5FF45 /* ZipCodesNearBy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEE533126F8128700A5FF45 /* Build configuration list for PBXNativeTarget "ZipCodesNearBy" */;
+			buildPhases = (
+				FBEE531926F8128400A5FF45 /* Sources */,
+				FBEE531A26F8128400A5FF45 /* Frameworks */,
+				FBEE531B26F8128400A5FF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZipCodesNearBy;
+			productName = ZipCodesNearBy;
+			productReference = FBEE531D26F8128400A5FF45 /* ZipCodesNearBy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBEE534826F8152A00A5FF45 /* ZipCodesNearByTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEE535026F8152A00A5FF45 /* Build configuration list for PBXNativeTarget "ZipCodesNearByTests" */;
+			buildPhases = (
+				FBEE534526F8152A00A5FF45 /* Sources */,
+				FBEE534626F8152A00A5FF45 /* Frameworks */,
+				FBEE534726F8152A00A5FF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEE534F26F8152A00A5FF45 /* PBXTargetDependency */,
+			);
+			name = ZipCodesNearByTests;
+			productName = ZipCodesNearByTests;
+			productReference = FBEE534926F8152A00A5FF45 /* ZipCodesNearByTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEE531526F8128400A5FF45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FBEE531C26F8128400A5FF45 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FBEE534826F8152A00A5FF45 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FBEE531C26F8128400A5FF45;
+					};
+				};
+			};
+			buildConfigurationList = FBEE531826F8128400A5FF45 /* Build configuration list for PBXProject "ZipCodesNearBy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEE531426F8128400A5FF45;
+			productRefGroup = FBEE531E26F8128400A5FF45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEE531C26F8128400A5FF45 /* ZipCodesNearBy */,
+				FBEE534826F8152A00A5FF45 /* ZipCodesNearByTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEE531B26F8128400A5FF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEE532D26F8128700A5FF45 /* LaunchScreen.storyboard in Resources */,
+				FBEE532A26F8128700A5FF45 /* Assets.xcassets in Resources */,
+				FBEE532826F8128400A5FF45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE534726F8152A00A5FF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEE531926F8128400A5FF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEE533626F812FF00A5FF45 /* ZipCodeSearcherViewModel.swift in Sources */,
+				FBEE532526F8128400A5FF45 /* ViewController.swift in Sources */,
+				FBEE532126F8128400A5FF45 /* AppDelegate.swift in Sources */,
+				FBEE533C26F8136400A5FF45 /* URLResppnse.swift in Sources */,
+				FBEE534426F8143400A5FF45 /* ZipCodeSearchAPI.swift in Sources */,
+				FBEE534126F813BC00A5FF45 /* Errors.swift in Sources */,
+				FBEE533F26F813B000A5FF45 /* Constants.swift in Sources */,
+				FBEE533926F8133300A5FF45 /* ZipCodeModel.swift in Sources */,
+				FBEE532326F8128400A5FF45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE534526F8152A00A5FF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEE535926F8DC1C00A5FF45 /* ZipCodeSearcherViewModelTests.swift in Sources */,
+				FBEE534C26F8152A00A5FF45 /* ZipCodesNearByTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBEE534F26F8152A00A5FF45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEE531C26F8128400A5FF45 /* ZipCodesNearBy */;
+			targetProxy = FBEE534E26F8152A00A5FF45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBEE532626F8128400A5FF45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEE532726F8128400A5FF45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEE532B26F8128700A5FF45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEE532C26F8128700A5FF45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEE532F26F8128700A5FF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBEE533026F8128700A5FF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEE533226F8128700A5FF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZipCodesNearBy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnanaT.ZipCodesNearBy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBEE533326F8128700A5FF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZipCodesNearBy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnanaT.ZipCodesNearBy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBEE535126F8152A00A5FF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZipCodesNearByTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnanaT.ZipCodesNearByTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZipCodesNearBy.app/ZipCodesNearBy";
+			};
+			name = Debug;
+		};
+		FBEE535226F8152A00A5FF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZipCodesNearByTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnanaT.ZipCodesNearByTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZipCodesNearBy.app/ZipCodesNearBy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEE531826F8128400A5FF45 /* Build configuration list for PBXProject "ZipCodesNearBy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEE532F26F8128700A5FF45 /* Debug */,
+				FBEE533026F8128700A5FF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEE533126F8128700A5FF45 /* Build configuration list for PBXNativeTarget "ZipCodesNearBy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEE533226F8128700A5FF45 /* Debug */,
+				FBEE533326F8128700A5FF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEE535026F8152A00A5FF45 /* Build configuration list for PBXNativeTarget "ZipCodesNearByTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEE535126F8152A00A5FF45 /* Debug */,
+				FBEE535226F8152A00A5FF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEE531526F8128400A5FF45 /* Project object */;
+}
